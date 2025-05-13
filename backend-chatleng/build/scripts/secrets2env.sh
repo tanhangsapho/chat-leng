@@ -1,7 +1,7 @@
 #!/bin/sh
-# 
+#
 # UPDATED: 2021-07-02
-# pipe secrets to .env file 
+# pipe secrets to .env file
 # usage: $source secrets2env.sh prefix
 prefix="$1"
 dir=/run/secrets

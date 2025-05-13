@@ -5,7 +5,7 @@
 # read original setting file from stdin
 # output clean key=value file
 
-# to use CI ENV in source file, declare VAR as 
+# to use CI ENV in source file, declare VAR as
 # VAR={$VAR:-default-value}
 
 # source the value replacement file

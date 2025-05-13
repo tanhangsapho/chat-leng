@@ -1,0 +1,45 @@
+[2025-05-13T07:58:23.812Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T07:58:23.820Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T07:58:23.825Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T07:58:23.826Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T07:59:30.348Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T07:59:30.351Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T07:59:30.352Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T07:59:30.353Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:00:34.373Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:00:34.376Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:00:34.378Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:00:34.378Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:01:34.697Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:01:34.700Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:01:34.702Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:01:34.702Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:02:58.609Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:02:58.612Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:02:58.615Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:02:58.620Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:03:07.747Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:03:07.751Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:03:07.754Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:03:07.755Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:03:27.555Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:03:27.557Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:03:27.559Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:03:27.559Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:03:42.970Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:03:42.974Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:03:42.976Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:03:42.977Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:04:29.776Z] [32minfo[39m: 	[32mMongoDB disconnected[39m
+[2025-05-13T08:04:29.779Z] [31merror[39m: 	[31mInitial MongoDB connection error[39m
+[2025-05-13T08:04:29.780Z] [31merror[39m: 	[31mError in MongoDB connection[39m
+[2025-05-13T08:04:29.781Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:04:44.282Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:04:44.284Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:04:44.286Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:04:58.960Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:04:58.962Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:04:58.965Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:05:03.538Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:05:03.541Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:05:03.543Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m

@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./build/app/Dockerfile.dev
+    container_name: chat-leng-api
+    env_file:
+      - .env
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/home/node/app/src:rw
+    networks:
+      - chat-leng
+
+networks:
+  chat-leng:
+    external: true

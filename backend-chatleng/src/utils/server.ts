@@ -6,7 +6,6 @@ import { logger, logInit } from "./logger";
 export async function run() {
   try {
     const config = getConfig(process.env.NODE_ENV);
-
     // Activate Logger
     logInit({ env: config.env, logLevel: config.logLevel });
 

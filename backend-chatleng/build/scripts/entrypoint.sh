@@ -15,7 +15,15 @@ check_env() {
 }
 
 envs=(
-  NODE_ENV
+NODE_ENV
+APP_PORT
+
+DB_CONNECTION_URI
+DB_PASSWORD
+DB_USERNAME
+
+LOG_LEVEL
+ENABLE_INTROSPECTION
 )
 
 case ${1} in
@@ -29,7 +37,7 @@ case ${1} in
     if [[ ${NODE_ENV} == "development" ]]; then
       # ready to start server with nodemon
       echo "INIT: starting web service for development(nodemon)"
-      exec npm run dev
+      exec yarn dev
     else
       # ready to start server
       echo "INIT: starting web service production"

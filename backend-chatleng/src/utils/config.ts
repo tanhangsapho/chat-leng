@@ -14,7 +14,6 @@ function createConfig(configPath: string) {
       `Missing required environment variables: ${missingConfig.join(", ")}`
     );
   }
-
   // Return configuration object
   return {
     env: process.env.NODE_ENV,
@@ -27,8 +26,8 @@ function createConfig(configPath: string) {
 const getConfig = (currentEnv: string = "development") => {
   const configPath =
     currentEnv === "development"
-      ? path.join(__dirname, `../../configs/.env`)
-      : path.join(__dirname, `../../configs/.env.${currentEnv}`);
+      ? path.join(__dirname, `../../.env`)
+      : path.join(__dirname, `../../.env.${currentEnv}`);
   return createConfig(configPath);
 };
 
