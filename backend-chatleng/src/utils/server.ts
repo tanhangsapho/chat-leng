@@ -1,5 +1,6 @@
 import { app } from "../app";
-import { connectMongoDB } from "../models";
+import { connectMongoDB } from "../config";
+import { rabbit } from "../config/rabbitMq";
 import { closeSocket, initSocket } from "../socket";
 import getConfig from "./config";
 import { logger, logInit } from "./logger";
@@ -14,6 +15,8 @@ export async function run() {
     // Activate Database
     const mongodb = connectMongoDB.getInstance();
     await mongodb.connect({ url: config.mongoUrl as string });
+
+    await rabbit.getConnection();
 
     const server = http.createServer(app);
     initSocket(server);
@@ -33,6 +36,7 @@ export async function run() {
         server.close(async () => {
           logger.info("server closed!");
           await closeSocket();
+          await rabbit.close();
           await mongodb.disconnect();
           logger.info("mongodb disconnected!");
           // Gracefully Terminate
@@ -61,7 +65,6 @@ export async function run() {
       }
     });
   } catch (error) {
-    console.log("Hello");
     logger.error("Failed to initialize application", { error });
     process.exit(1);
   }

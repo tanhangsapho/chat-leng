@@ -20,6 +20,10 @@ function createConfig(configPath: string) {
     port: process.env.PORT,
     logLevel: process.env.LOG_LEVEL,
     mongoUrl: process.env.MONGODB_URL,
+    Rabbithost: process.env.RABBITMQ_HOST,
+    user: process.env.RABBITMQ_USER,
+    password: process.env.RABBITMQ_PASSWORD,
+    vhost: process.env.RABBITMQ_VHOST,
   };
 }
 
