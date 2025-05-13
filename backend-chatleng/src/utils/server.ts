@@ -1,7 +1,9 @@
 import { app } from "../app";
 import { connectMongoDB } from "../models";
+import { closeSocket, initSocket } from "../socket";
 import getConfig from "./config";
 import { logger, logInit } from "./logger";
+import http from "http";
 
 export async function run() {
   try {
@@ -13,15 +15,24 @@ export async function run() {
     const mongodb = connectMongoDB.getInstance();
     await mongodb.connect({ url: config.mongoUrl as string });
 
-    // Start Server
-    const server = app.listen(config.port, () => {
-      logger.info(`Server is listening on port: ${config.port}`);
+    const server = http.createServer(app);
+    initSocket(server);
+    logger.info("Socket.IO initialized");
+
+    server.on("listening", () => {
+      logger.info(`HTTP server listening on port ${config.port}`);
     });
 
+    server.on("close", () => {
+      logger.info("HTTP server closed");
+    });
+
+    server.listen(config.port);
     const exitHandler = async () => {
       if (server) {
         server.close(async () => {
           logger.info("server closed!");
+          await closeSocket();
           await mongodb.disconnect();
           logger.info("mongodb disconnected!");
           // Gracefully Terminate

@@ -43,3 +43,67 @@
 [2025-05-13T08:05:03.538Z] [32minfo[39m: 	[32mMongoDB connected[39m
 [2025-05-13T08:05:03.541Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
 [2025-05-13T08:05:03.543Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:05:41.428Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:05:41.430Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:05:41.432Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:13:08.468Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:13:08.470Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:13:08.472Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:13:12.492Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:13:12.494Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:13:12.496Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:13:50.913Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:13:50.916Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:13:50.918Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:14:44.228Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:14:44.230Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:14:44.232Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:14:58.521Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:14:58.523Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:14:58.526Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:15:38.944Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:15:38.948Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:15:38.952Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:15:54.572Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:15:54.575Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:15:54.578Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:17:20.074Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:17:20.077Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:17:20.080Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:17:44.558Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:17:44.560Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:17:44.562Z] [32minfo[39m: 	[32mSocket.IO initialized and waiting for connections[39m
+[2025-05-13T08:17:44.563Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:17:57.534Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:17:57.536Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:17:57.539Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:18:09.340Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:18:09.342Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:18:09.345Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:19:09.728Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:19:09.731Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:19:09.733Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:19:09.734Z] [32minfo[39m: 	[32mServer is listening on port: 3000[39m
+[2025-05-13T08:19:21.239Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:19:21.241Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:19:21.243Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:20:14.115Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:20:14.117Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:20:14.121Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:20:42.446Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:20:42.449Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:20:42.451Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:21:03.533Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:21:03.535Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:21:03.537Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:21:17.212Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:21:17.214Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:21:17.216Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:22:34.789Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:22:34.792Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:22:34.794Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:22:34.796Z] [32minfo[39m: 	[32mHTTP server listening on port 3000[39m
+[2025-05-13T08:22:41.806Z] [32minfo[39m: 	[32mMongoDB connected[39m
+[2025-05-13T08:22:41.809Z] [32minfo[39m: 	[32mSuccessfully connected to MongoDB[39m
+[2025-05-13T08:22:41.811Z] [32minfo[39m: 	[32mSocket.IO initialized[39m
+[2025-05-13T08:22:41.813Z] [32minfo[39m: 	[32mHTTP server listening on port 3000[39m
